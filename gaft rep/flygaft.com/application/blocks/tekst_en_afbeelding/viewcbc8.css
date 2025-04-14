@@ -1,0 +1,34 @@
+
+
+.afb-tekst h2, .afb-tekst h3, .afb-tekst h4{
+    color: #0087CB;
+}
+
+.afb-tekst__tekst{
+
+}
+
+.bijschrift{
+    font-size: 0.9rem;
+    color: #0087CB;
+}
+
+.afb-tekst__wrap{
+    width: 75%;
+}
+
+.afb-tekst__wrap_right{
+    width: 75%;
+    right: 0;
+    margin-left: auto;
+}
+/* @media only screen and (max-width: 600px) { */
+@media screen and (max-width: 768px){
+    .afb-tekst__wrap_right,.afb-tekst__wrap{
+        width: 100%;
+    }
+
+    img{
+        margin: 1rem 0;
+    }
+}

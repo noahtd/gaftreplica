@@ -1,0 +1,30 @@
+
+.hero{
+    background-size: cover;
+    background-position: center center;
+    min-height: 380px;
+    padding-bottom: 60px;
+    padding-top: 160px;
+    position: relative;
+}
+
+.hero__content{
+    
+    width: 100%;
+    
+    color: #fff;
+    
+    /* margin: 80px; */
+    padding: 40px;
+    bottom: 0;
+    opacity: 0.8;
+
+}
+
+.hero__content h1{
+    color: #fff;
+}
+
+.hero__content a{
+    color: #fff;
+}
